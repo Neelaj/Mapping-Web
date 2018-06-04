@@ -74,8 +74,8 @@ function createMap(earthquakes) {
     // Create our map, giving it the outdoors, earthquakes and tectonic plates layers to display on load
     var myMap = L.map("map", {
       center: [
-        37.09, -95.71],
-      zoom: 4.79,
+        15.09, -13.71],
+      zoom: 2.45,
       layers: [outdoors, earthquakes, tectonicPlates]
     }); 
 
@@ -97,7 +97,7 @@ function createMap(earthquakes) {
     }).addTo(myMap);
 
   //Create a legend on the bottom left
-  var legend = L.control({position: 'bottomleft'});
+  var legend = L.control({position: 'topleft'});
 
     legend.onAdd = function(myMap){
       var div = L.DomUtil.create('div', 'info legend'),

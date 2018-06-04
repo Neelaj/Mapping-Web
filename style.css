@@ -13,11 +13,11 @@ body{
     background-color:#364e53;
 }
 
-.jumbotron {
+.container {
     text-align: center;
     color: black;
     position: relative;
-    background: #cbee89;
+    background: #d9e9ba;
     width: 100%;
     height: 100%;
     background-size: cover;
